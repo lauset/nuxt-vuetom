@@ -1,15 +1,17 @@
 {
+  "name": "nuxt-vuetom",
   "private": true,
   "scripts": {
-    "build": "nuxt build",
     "dev": "nuxt dev",
+    "build": "nuxt build",
     "generate": "nuxt generate",
-    "preview": "nuxt preview"
+    "preview": "nuxt preview",
+    "server": "node .output/server/index.mjs"
   },
   "devDependencies": {
     "@nuxtjs/tailwindcss": "^5.3.2",
     "autoprefixer": "^10.4.8",
-    "nuxt": "3.0.0-rc.6",
+    "nuxt": "^3.0.0-rc.8",
     "postcss": "^8.4.16",
     "prettier": "^2.7.1",
     "tailwindcss": "^3.1.8"

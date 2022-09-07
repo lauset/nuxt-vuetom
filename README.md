@@ -1,6 +1,10 @@
-# Nuxt3 Web
+# Nuxt Vuetom
+
+nuxt3 + tailwind
 
 Look at the [nuxt 3 documentation](https://v3.nuxtjs.org) to learn more.
+
+[Preview (vercel)](https://nuxt-vuetom.vercel.app/)
 
 ## Setup
 
@@ -22,6 +26,8 @@ pnpm install --shamefully-hoist
 Start the development server on <http://localhost:3000>
 
 ```bash
+yarn dev -o
+
 npm run dev
 
 pnpm dev -o
@@ -32,13 +38,31 @@ pnpm dev -o
 Build the application for production:
 
 ```bash
-npm run build
+yarn build 
+
+yarn generate
 ```
 
 Locally preview production build:
 
 ```bash
-npm run preview
+yarn preview
+```
+
+## Deploy
+
+```bash
+node ./output/server/index.mjs
 ```
 
 Checkout the [deployment documentation](https://v3.nuxtjs.org/guide/deploy/presets) for more information.
+
+## Features
+
+- [x] default layouts
+- [x] tailwind
+- [x] vercel deploy
+- [x] apis
+- [ ] i18n
+- [ ] darkMode
+- [ ] custom layouts
