@@ -1,0 +1,13 @@
+{
+  "name": "nuxt-vuetom",
+  "version": 2,
+  "alias": ["nuxt-vuetom", "lauset-nvt"],
+  "devCommand": "nuxt dev",
+  "buildCommand": "nuxt build",
+  "installCommand": "yarn install",
+  "outputDirectory": "./.output",
+  "public": true,
+  "github": {
+    "enabled": false
+  }
+}

@@ -3,14 +3,14 @@ import { defineNuxtConfig } from 'nuxt'
 // https://v3.nuxtjs.org/api/configuration/nuxt.config
 export default defineNuxtConfig({
   runtimeConfig: {
-    apiSecret: '',
-    public: {
-      apiBase: ''
-    },
+    // apiSecret: '',
+    // public: {
+    //   apiBase: ''
+    // },
   },
   app: {
     head: {
-      title: 'nuxt-vuetom',
+      title: 'VT | nuxt',
       htmlAttrs: {
         lang: 'en'
       },
